@@ -1,4 +1,4 @@
-export type Primitive = string | number | boolean | null
+export type Primitive = string | number | boolean | null | Function
 
 export interface JSONArray extends Array<JSONEntry> {}
 export interface JSONMap {
